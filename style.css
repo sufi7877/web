@@ -1,0 +1,77 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 100vh;
+    background-color: cadetblue;
+    background-image:url(mountains-8229139_1920.jpg) ;
+    background-repeat: no-repeat;
+    display: ;
+    padding: 25px;
+    background-size: 100% 100%;
+    /* background-position: top right; */
+    justify-content: center;
+    align-items: center;
+}
+.d{
+    width: 40%;
+    height: auto;
+    /* background-color: steelblue; */
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 400px;
+
+}
+.d h1{
+    font-size: 85px;
+    color: rgb(43, 41, 37);
+    /* color: transparent; */
+    background-image: url(marbles-1659398_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+.d p{
+    color: white;
+    font-size: 25px;
+
+
+
+}
+button{
+    color: rgb(219, 230, 232);
+    border: none;
+    font-size: 30px;
+    margin: 20px 10px 10px 10px;
+    background-color: transparent;
+    box-shadow: 10px 10px 10px rgb(27, 5, 5) ;
+}
+input{
+    width: 40%;
+    height: 4vh;
+    transform: translate(400px, -590px);
+    background-color: transparent;
+    box-shadow: 5px 5px 50px blue;
+    border-radius: 10px;
+
+    /* font-size: 50px; */
+}
+input::placeholder
+{
+    color: blueviolet;
+    padding-left: 20px;
+}
+ol{
+    width: 15px;
+    height: 15px;
+    margin-top: -612px;
+    margin-left: 408px;
+    background-image: url(magnifying-glass-solid.svg);
+}
